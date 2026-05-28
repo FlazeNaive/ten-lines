@@ -228,7 +228,7 @@ export default function TenLinesForm({
                     ]
                 }
             </TextField>
-            {isFRLG && (
+            {isFRLG && !isSwitch && (
                 <TeachyTVEntry
                     isTeachyTVMode={isTeachyTVMode}
                     teachyTVRegularOut={teachyTVRegularOut}
